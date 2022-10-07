@@ -1,0 +1,21 @@
+.header-container{
+     width:40vw;
+     height:10vh;
+     background-color: antiquewhite;
+     padding:2px;
+     display:flex;
+     align-items: center;
+     border-radius:4px;
+    }
+    .insta-logo{
+       width:150px;
+    }
+    .camera-logo{
+       width:50px;
+       margin-left: auto;
+       margin-right:30px;
+    }
+    img{
+       height:100%;
+       width:100%;
+    }
