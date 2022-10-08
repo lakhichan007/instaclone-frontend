@@ -9,12 +9,12 @@ const PostView = () => {
     const [posts, setpost] = useState([])
 
     useEffect(() => {
-        axios.get("https://instabackend007.herokuapp.com/user")
+        axios.get("https://instaclone-backend007.herokuapp.com/user")
             .then((res) => {
                 setpost(res.data.profile)
             })
     }, [])
-
+console.log(posts)
     return (
         <div id="insta-container">
         <Header />

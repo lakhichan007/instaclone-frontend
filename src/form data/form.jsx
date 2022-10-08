@@ -22,7 +22,7 @@ const postData= async (e)=>{
         headers: { "Content-Type": "multipart/form-data" },
     }
 
-      await axios.post("https://instabackend007.herokuapp.com/user/upload",formData,config)
+      await axios.post("https://instaclone-backend007.herokuapp.com/user/upload",formData,config)
      .then((res)=>{
             console.log("post",res)
            
